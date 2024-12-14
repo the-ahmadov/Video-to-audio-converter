@@ -12,6 +12,17 @@ If you don't have Python 3 installed, you just need to install python3 package :
 ```bash
 $ sudo apt-get install python3
 ```
+If you don't have ffmpeg installed, you just need to install ffmpeg package :
+
+```bash
+$ sudo apt-get install ffmpeg
+```
+If you don't have lame installed, you just need to install lame package :
+
+```bash
+$ sudo apt-get install lame
+```
+
 
 ### Clone:
 ```bash
@@ -21,6 +32,14 @@ $ cd ../Video-to-audio-converter
 
 ### Usage:
 
+For single file
 ```bash
 $ python3 video_to_audio.py <filename>
 ```
+
+For all files in given folder name 
+```bash
+$ python3 video_to_audio.py <folder name>
+```
+
+Resulted audio files are saved in "audio folder"
