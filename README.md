@@ -1,5 +1,5 @@
 # Video-to-audio-converter
-A python script to convert video files into mp3 audio files. As a heavy listener of music, I prefer keeping audio files on my phone than video files to consume less disk space. This tool helps in converting the video files present in my computer to mp3 audio files.
+A python script to convert video files into mp3 audio files.
 
 
 ### Requirements:
@@ -7,17 +7,17 @@ A python script to convert video files into mp3 audio files. As a heavy listener
 
 ##### This script needs Python 3+ and ffmpeg, lame packages
 
-If you don't have Python 3 installed, you just need to install python3 package :
+If you don't have <b>Python 3</b> installed:
 
 ```bash
 $ sudo apt-get install python3
 ```
-If you don't have ffmpeg installed, you just need to install ffmpeg package :
+If you don't have <b>ffmpeg</b> installed:
 
 ```bash
 $ sudo apt-get install ffmpeg
 ```
-If you don't have lame installed, you just need to install lame package :
+If you don't have <b>lame</b> installed:
 
 ```bash
 $ sudo apt-get install lame
@@ -26,7 +26,7 @@ $ sudo apt-get install lame
 
 ### Clone:
 ```bash
-$ git clone https://github.com/adityashrm21/Video-to-audio-converter
+$ git clone https://github.com/the-ahmadov/Video-to-audio-converter
 $ cd ../Video-to-audio-converter
 ```
 
@@ -42,4 +42,4 @@ For all files in given folder name
 $ python3 video_to_audio.py <folder name>
 ```
 
-Resulted audio files are saved in "audio folder"
+Resulted audio files are saved in "audio" folder in the py file folder.
